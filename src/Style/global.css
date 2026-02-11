@@ -1,4 +1,4 @@
-/* global.css */
+
 
 body {
     background-color: var(--color-bg-page);
@@ -13,7 +13,7 @@ body {
     font-family: sans-serif;
 }
 
-/* CARTÃO */
+
 main {
     background-color: var(--color-bg-card);
     border-radius: var(--radius-lg);
@@ -27,7 +27,7 @@ main {
     gap: var(--space);
 }
 
-/* INPUTS */
+
 input {
     width: 100%;
     padding: var(--space);
@@ -47,7 +47,7 @@ input:focus {
     border-color: var(--color-grad-1);
 }
 
-/* BOTÃO */
+
 button {
     width: 100%;
     padding: var(--space);

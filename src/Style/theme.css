@@ -1,20 +1,19 @@
-/* theme.css */
+
 :root {
-    /* PALETA DE CORES */
-    --color-bg-page: #0e0e0e;              /* fundo geral – cinza quase preto */
-    --color-bg-card: #1b1b1b;              /* cartão – cinza intermediário */
-    --color-text: #f2f2f2;                 /* texto claro */
+    
+    --color-bg-page: #0e0e0e;              
+    --color-bg-card: #1b1b1b;              
+    --color-text: #f2f2f2;                 
 
-    /* CORES DO GRADIENTE */
-    --color-grad-1: #7b2ff7;               /* roxo */
-    --color-grad-2: #00ff88;               /* verde */
+    
+    --color-grad-1: #7b2ff7;               
+    --color-grad-2: #00ff88;               
 
-    /* GEOMETRIA */
-    --radius-sm: 6px;                      /* inputs / botões */
-    --radius-lg: 20px;                     /* cartão */
-    --space: 16px;                         /* unidade base */
 
-    /* ANIMAÇÕES */
+    --radius-sm: 6px;                     
+    --radius-lg: 20px;                     
+    --space: 16px;                         
+
     --transition-speed: 0.3s;
     --transition-ease: ease-in-out;
 }
