@@ -1,4 +1,76 @@
-h1{
-    color: var(--yellow);
-    background-color: var(--primary-color);
+/* global.css */
+
+body {
+    background-color: var(--color-bg-page);
+    color: var(--color-text);
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* CARTÃO */
+main {
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-lg);
+    padding: calc(var(--space) * 2);
+    width: 360px;
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--space);
+}
+
+/* INPUTS */
+input {
+    width: 100%;
+    padding: var(--space);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-bg-page);
+    border: 2px solid transparent;
+
+    color: var(--color-text);
+
+    transition:
+        border-color var(--transition-speed) var(--transition-ease),
+        background-color var(--transition-speed) var(--transition-ease);
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--color-grad-1);
+}
+
+/* BOTÃO */
+button {
+    width: 100%;
+    padding: var(--space);
+    border-radius: var(--radius-sm);
+
+    border: none;
+    cursor: pointer;
+
+    background-image: linear-gradient(
+        45deg,
+        var(--color-grad-1),
+        var(--color-grad-2)
+    );
+
+    color: var(--color-text);
+    font-weight: bold;
+
+    transition:
+        transform var(--transition-speed) var(--transition-ease),
+        opacity var(--transition-speed) var(--transition-ease);
+}
+
+button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
 }

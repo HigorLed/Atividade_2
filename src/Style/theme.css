@@ -1,4 +1,20 @@
-:root{
-    --primary-color: #61dafb;
-    --yellow: #f0db4f;
+/* theme.css */
+:root {
+    /* PALETA DE CORES */
+    --color-bg-page: #0e0e0e;              /* fundo geral – cinza quase preto */
+    --color-bg-card: #1b1b1b;              /* cartão – cinza intermediário */
+    --color-text: #f2f2f2;                 /* texto claro */
+
+    /* CORES DO GRADIENTE */
+    --color-grad-1: #7b2ff7;               /* roxo */
+    --color-grad-2: #00ff88;               /* verde */
+
+    /* GEOMETRIA */
+    --radius-sm: 6px;                      /* inputs / botões */
+    --radius-lg: 20px;                     /* cartão */
+    --space: 16px;                         /* unidade base */
+
+    /* ANIMAÇÕES */
+    --transition-speed: 0.3s;
+    --transition-ease: ease-in-out;
 }

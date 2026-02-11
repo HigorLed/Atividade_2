@@ -1,9 +1,14 @@
+// App.jsx
+export default function App() {
+    return (
+        <main>
+            <h1>Login</h1>
+            <p>Acesse sua conta para continuar</p>
 
-export function App() {
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Senha" />
 
-  return (
-    <h1>Olá, mundo!</h1>
-  )
+            <button>Entrar</button>
+        </main>
+    );
 }
-
-
